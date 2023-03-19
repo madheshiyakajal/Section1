@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Student Admission Form</h1>
+        <hr>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter ur name" required><br>
+
+        <label>email</label>
+        <input type="text" placeholder="xyz@123gmail.com"><br>
+
+        <label>DOB</label>
+        <input type="date"><br>
+
+        <label>Address</label><br>
+        <textarea cols="30" rows="10"></textarea><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <br><br>
+        <label>Contact</label>
+        <input type="tel">
+        <br><br>
+
+        <label for="img">Upload image</label>
+        <input hidden id="img" type="file">
+        <br><br>
+
+        <label>Select ur city</label>
+        <select>
+            <option>enter city</option>
+            <option>Lucknow</option>
+            <option>Goa</option>
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option>Kanpur</option>
+
+        </select>
+        <br><br>
+        <label>Select course</label>
+        <input type="text" list="course">
+        <datalist id="course">
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>B.TECH</option>
+            <option>BBA</option>
+            <option>MBA</option>
+        </datalist>
+        <br><br>
+        <input type="checkbox">Accept terms and condition
+        <br><br>
+        <details>
+            <summary>Terms and condition</summary>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quos eos fugit, sapiente laboriosam
+                consequatur illum ratione! Quam, possimus vitae.
+            </p>
+        </details>
+        <video controls autoplay muted loop src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_rm_fD7akAnocaPtKSMuBP_28.mp4?v=6873464708878412864"></video>
+
+        <br><br>
+        <button>Submit</button>
+
+
+    </form>
+</body>
+
+</html>
